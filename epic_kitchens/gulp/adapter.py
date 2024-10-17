@@ -3,8 +3,8 @@ import os
 from typing import Dict, Any, List, Iterator
 
 import pandas as pd
-from gulpio.adapters import AbstractDatasetAdapter
-from gulpio.utils import find_images_in_folder, resize_images
+from gulpio2.adapters import AbstractDatasetAdapter
+from gulpio2.utils import find_images_in_folder, resize_images
 
 from epic_kitchens.labels import (
     VERB_CLASS_COL,

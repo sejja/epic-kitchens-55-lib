@@ -3,7 +3,7 @@ See :ref:`cli_tools_gulp_ingestor` for usage details """
 from pathlib import Path
 import argparse
 import pandas as pd
-from gulpio import GulpIngestor
+from gulpio2 import GulpIngestor
 
 from . import adapter
 

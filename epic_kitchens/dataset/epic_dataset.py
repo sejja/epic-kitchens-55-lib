@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Union, Iterable
 
 import PIL.Image
-from gulpio import GulpDirectory
+from gulpio2 import GulpDirectory
 
 from epic_kitchens.labels import VERB_CLASS_COL, NOUN_CLASS_COL, UID_COL
 from epic_kitchens.dataset.video_dataset import VideoDataset, VideoSegment

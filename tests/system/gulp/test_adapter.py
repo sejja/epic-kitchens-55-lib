@@ -2,7 +2,7 @@ import cv2
 from skimage.measure import compare_ssim as ssim
 
 from epic_kitchens.gulp.__main__ import main, parser
-from gulpio.dataset import GulpDirectory
+from gulpio2.dataset import GulpDirectory
 import pandas as pd
 import numpy as np
 
